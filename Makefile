@@ -16,4 +16,4 @@ test: $(TEST_SRC) validara.h
 	./test_runner
 
 clean:
-	rm -f $(TARGET) test_runner *.o .built /tmp/validara-report.md
+	rm -f $(TARGET) test_runner *.o /tmp/validara-report.md
