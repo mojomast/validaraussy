@@ -1,0 +1,23 @@
+# C build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Project binaries
+validara
+test_runner
+
+# Build/test markers and temporary data
+.built
+*.tmp
+*.temp
+/tmp/validara-report.md
+/tmp/validara-test-report.md
+
+# Editor and OS noise
+.DS_Store
+*.swp
+*~
